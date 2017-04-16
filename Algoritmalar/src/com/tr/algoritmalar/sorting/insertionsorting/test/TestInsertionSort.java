@@ -54,7 +54,7 @@ public class TestInsertionSort {
 	 long endTime = System.currentTimeMillis();
 	 long estimatedTime = endTime - startTime; 
 	 double seconds = (double)estimatedTime/1000; 
-	 System.out.println(" Eleman Sayısı "+ diziBoyutu + " süre " + seconds );
+	 System.out.println(" Eleman  Sayısı "+ diziBoyutu + " süre " + seconds );
 	 }
 	 }
 
