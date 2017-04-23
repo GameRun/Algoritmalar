@@ -47,7 +47,7 @@ public class TestInsertionSort {
 	 int diziBoyutu;
 	 int[] dizi =null;
 	
-	 for( diziBoyutu=10000; diziBoyutu<10_000_000;diziBoyutu*=10 ) {
+	 for( diziBoyutu=100; diziBoyutu<10_000_000;diziBoyutu*=10 ) {
 	 dizi = sort.randomIntegerArrayGenerate(diziBoyutu);
 	 long startTime = System.currentTimeMillis();
 	 sort.insertionSort(dizi);
